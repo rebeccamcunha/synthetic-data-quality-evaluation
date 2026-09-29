@@ -49,20 +49,16 @@ Both datasets are publicly available. The `data/` folder also contains every int
 
 **Environments.** The evaluation libraries have conflicting dependencies, so each framework runs in its own conda environment. The notebook metadata already selects the right kernel:
 
-| Notebooks | Kernel / environment | Main packages |
+| Notebooks | Kernel / environment | 
 |---|---|---|
-| `*_complete_pipeline` | Python 3.12 (base) | ctgan, scikit-learn, imbalanced-learn, xgboost, torch |
-| `*_syntheval` | `tese_eval` (Python 3.10) | syntheval |
-| `*_synthcity` | `tese_synthcity` (Python 3.10) | synthcity 0.2.12, numpy < 2, opacus 1.4.0 |
-| `*_anonymeter` | `tese_anonymeter` (Python 3.10) | anonymeter 1.1.0 |
-| `*_sdmetrics` | `tese_sdmetrics` (Python 3.10) | sdmetrics 0.28.2 |
-| `*_fest` | `tese_fest` (Python 3.10) | FEST (`privacy_utility_framework`, [synprivutil](https://github.com/Karo2222/synprivutil)) |
+| `*_complete_pipeline` | Python 3.12 (base) | 
+| `*_syntheval` | `tese_eval` (Python 3.10) | 
+| `*_synthcity` | `tese_synthcity` (Python 3.10) | 
+| `*_anonymeter` | `tese_anonymeter` (Python 3.10) | 
+| `*_sdmetrics` | `tese_sdmetrics` (Python 3.10) |
+| `*_fest` | `tese_fest` (Python 3.10) |
 
-**CTAB-GAN+.** The pipelines use the official implementation, which is not included here. Clone it into the repository root before running the pipelines:
 
-```
-git clone https://github.com/Team-TUD/CTAB-GAN-Plus.git
-```
 
 ## Reproducibility notes
 
@@ -74,15 +70,5 @@ git clone https://github.com/Team-TUD/CTAB-GAN-Plus.git
 - The notebooks in `scripts/` regenerate the fidelity (TVD/KS) and sensitivity (Property 4) figures in their final dissertation form, directly from the CSVs in `data/`.
 - Anonymeter attacks are stochastic, so re-running them can change the risk estimates slightly within their confidence intervals.
 
-## Citation
 
-If you use this code, please cite the dissertation:
 
-```
-Rebecca de Oliveira Cunha (2026). Synthetic Data for Machine Learning: A Study on Quality
-and Evaluation. Master's dissertation, Iscte – University Institute of Lisbon.
-```
-
-## License
-
-The code is released under the MIT License. The datasets remain under the terms of their original sources.
