@@ -1,0 +1,6 @@
+Metric,CTGAN,CTAB-GAN+,Real baseline
+DCR median,0.9926,0.7654,0.0726
+DCR mean,1.0622,0.8423,0.1518
+DCR % < P5 (risk),0.0,0.0,0.05
+NNDR median,0.986,0.9726,0.5001
+NNDR % < 0.5 (risk),0.0078,0.0669,0.4905

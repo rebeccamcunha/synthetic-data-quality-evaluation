@@ -1,0 +1,12 @@
+,TVD_minority_vs_majority
+job,0.1512
+marital,0.0769
+education,0.0969
+default,0.1239
+housing,0.0258
+loan,0.003
+contact,0.2221
+month,0.2308
+day_of_week,0.0277
+poutcome,0.2074
+was_contacted,0.1901

@@ -1,0 +1,12 @@
+Privacy Metric,CTGAN,CTAB-GAN+,Interpretation
+DCR — Mean,2.4268,1.5173,Higher = further from real records = better privacy
+DCR — Median,2.1859,1.1090,Higher = further from real records = better privacy
+DCR — 5th percentile,0.2866,0.3331,Higher = worst-case records still reasonably distant
+DCR — Min (closest copy),0.1035,0.0678,Minimum distance — the single closest synthetic-to-real pair
+DCR — % records below risk threshold,0.17%,0.12%,% of synthetic records unusually close to one real record
+DCR safety (median >= real baseline),SAFE ✓,SAFE ✓,Key safety criterion: synthetic not closer than real-to-real
+NNDR — Mean,0.9376,0.9091,Closer to 1 = more interpolation = better privacy
+NNDR — Median,0.9695,0.9420,Closer to 1 = more interpolation = better privacy
+NNDR — % records < 0.5 (HIGH RISK),0.51%,0.54%,Lower % = fewer records that closely shadow one real person
+Real baseline DCR — Median,0.6721,0.6721,Reference: typical distance between two real records
+Real baseline NNDR — Median,0.8781,0.8781,Reference: typical NNDR between two real records

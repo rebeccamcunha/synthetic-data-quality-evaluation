@@ -1,0 +1,8 @@
+Quality Dimension,Metric,He Property,CTGAN,CTAB-GAN+,Favoured
+Marginal fidelity (categorical),Mean TVD,-,0.0873,0.0899,CTGAN
+Marginal fidelity (continuous),Mean KS,-,0.1396,0.2225,CTGAN
+Proximity,NN distance,P1,1.0622,0.8423,CTAB-GAN+
+Sparsity,OOD rate,P2,0.6793,0.5812,CTAB-GAN+
+Deviation,Mean |z-score|,P3,0.818,0.7441,CTAB-GAN+
+Sensitivity,Multi-feature outliers,P4,0.0,0.0,CTAB-GAN+
+Feature Interdependency,Frobenius Δ,P7,0.8763,1.1692,CTGAN
